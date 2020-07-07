@@ -18,7 +18,7 @@ source ./build-common.sh
 
 export PLATFORM_TYPE="iOS"
 export IOS_MIN_TARGET="8.0"
-export ARCHS=("armv7" "arm64" "arm64e" "x86_64")
+export ARCHS=("armv7" "arm64" "arm64e") # "x86_64")
 export SDKS=("iphoneos" "iphoneos" "iphoneos" "iphonesimulator")
 export PLATFORMS=("iPhoneOS" "iPhoneOS" "iphoneos" "iPhoneSimulator")
 

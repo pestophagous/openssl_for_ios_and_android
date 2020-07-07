@@ -17,8 +17,8 @@
 source ./build-common.sh
 
 export PLATFORM_TYPE="Android"
-export ARCHS=("arm" "arm64" "x86" "x86_64")
-export ABIS=("armeabi-v7a" "arm64-v8a" "x86" "x86_64")
+export ARCHS=("arm" "arm64" "x86") # "x86_64")
+export ABIS=("armeabi-v7a" "arm64-v8a" "x86" ) #"x86_64")
 export ABI_TRIPLES=("arm-linux-androideabi" "aarch64-linux-android" "i686-linux-android" "x86_64-linux-android")
 export ANDROID_API=23
 
